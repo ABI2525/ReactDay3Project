@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+.head
+{
+    padding: 30px;
+    text-align: center;
+    background-color: black;
+    color: rgb(243, 96, 4);
+    font-size: 20px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.topnav
+{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
+  width: 100%;
 }
-
-.App-link {
-  color: #61dafb;
+.topnav li{
+    list-style: none;
+    width: 120px;
+    float: left;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.topnav a
+{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    padding: 14px 16px;
+    
+}
+.topnav a:hover{
+       color:orange;
+}
+#coffee
+{
+    background-color:red;
+    display: flex;
+    justify-content: space-around;
+ 
+}
+#tea
+{
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+}
+#pastries
+{
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+}
+#cart
+{
+    background-color: blue;
+    display: flex;
+    justify-content:center;
 }
